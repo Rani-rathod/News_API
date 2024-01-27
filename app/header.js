@@ -14,8 +14,8 @@ const Header = () => {
                     <div className='header'>Org</div>
                 </div>
             </div>
-            <hr class="border border-dark border-1 opacity-50"></hr>
-            <hr class="border border-dark border-1 opacity-50"></hr>
+            <hr></hr>
+            <hr></hr>
         </div>
     );
 };

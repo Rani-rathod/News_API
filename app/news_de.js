@@ -7,10 +7,12 @@ const NewsDe = () => {
         <div className="row">
           <div className="col-3 product1 border">Top News from India</div>
         </div>
-        <div className="row ">
-          <div className="col-4 product2 border"></div>
-          <div className="col-4 product2 border"></div>
-          <div className="col-4 product2 border"></div>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col border" style={{height:"288px"}}>box1</div>
+                <div class="col border" style={{height:"288px"}}>box2</div>
+                <div class="col border" style={{height:"288px"}}>box3</div>
+            </div>
         </div>
       </div>
     </div>
@@ -18,59 +20,3 @@ const NewsDe = () => {
 };
 
 export default NewsDe;
-
-// "use client"
-// import { useState, useEffect } from 'react';
-
-// function MyComponent() {
-//   const [newsData, setNewsData] = useState([]);
-
-//   useEffect(() => {
-//     const apiUrl = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=dec62bb5689649c389b7d3bd62a6646d';
-
-//     const fetchData = async () => {
-//       try {
-//         const response = await fetch(apiUrl);
-
-//         if (!response.ok) {
-//           throw new Error(`HTTP error! Status: ${response.status}`);
-//         }
-
-//         const data = await response.json();
-//         setNewsData(data.articles.slice(0,9));
-//       } catch (error) {
-//         console.error('Error fetching data:', error.message);
-//       }
-//     };
-
-//     fetchData();
-//   }, []); 
-
-//   return (
-//     <div>
-//       <div className='box-container'>
-//         {newsData.map((article) => (
-//           <div key={article.url} className='box'>
-//             {article.urlToImage && (
-//               <img
-//                 src={article.urlToImage}
-//                 alt={article.title}
-//               />
-//             )}
-//             <h4>{article.title
-//               ? `${article.title.substring(0,60)}...`
-//               : 'No title available'}
-//             </h4>
-//             <p>
-//               {article.description
-//                 ? `${article.description.substring(0, 70)}...`
-//                 : 'No description available'}
-//             </p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default MyComponent;
