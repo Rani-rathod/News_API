@@ -7,10 +7,7 @@ const Search=()=>{
             <input class="form mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
             <button class="btn btn-danger" type="submit">Go</button>
         </form>
-
     );
 };
 export default Search;  
-
-
 
