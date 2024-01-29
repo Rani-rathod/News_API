@@ -1,20 +1,37 @@
+/* 
+@media (min-width: 1400px) {
+  .container {
+      max-width: 910px;
+  }
+}
+
+.container, .container-fluid {
+  padding: 0px;
+  padding-bottom: 100px;
+
+
+}
+
+
+*{
+  margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+ */
+
 
 .headertext{
   color: #3C3030;
   font-family: "Iowan Old Style";
   font-size: 84px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
 }
 
 .header{
   color: #3C3030;
   font-family: "Iowan Old Style";
   font-size: 84px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; 
 }
 
 .product2{
@@ -25,10 +42,6 @@
   color: #D02424;
   font-family: "Inria Sans";
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
-  letter-spacing: -0.4px;
   text-transform: uppercase;
 }
 
@@ -43,9 +56,6 @@
   color: #3C3030;
   font-family: "Iowan Old Style";
   font-size: 15.095px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
 }
 
 .logo1 {
@@ -58,9 +68,6 @@
   color: #3C3030;
   font-family: "Iowan Old Style";
   font-size: 15.095px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
 } 
 
 .line{
@@ -68,3 +75,87 @@
   margin-bottom: 60px;
 }
 
+.box1{
+  height:450px;
+  display: flex;
+  flex-direction: column;
+
+}
+.box1 img{
+  min-height: 200px;
+  background-color: red;
+}
+
+.box1 h4{
+  color: #3C3030;
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.box2 h4{
+  color: #3C3030;
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.box3 h4{
+  color: #3C3030;
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+
+.box4 h4{
+  color: #3C3030;
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.box2{
+  height:388px;
+  display: flex;
+  flex-direction: column;
+
+}
+.box2 img{
+  min-height: 200px;
+  background-color: red;
+}
+.box4 img{
+  min-height: 200px;
+  background-color: red;
+}
+
+.box2 h4,
+.box2 div{
+  padding: 5px 10px;
+}
+
+
+.box3{
+  height:388px;
+  display: flex;
+  flex-direction: column;
+
+}
+.box3 img{
+  min-height: 200px;
+  background-color: red;
+}
+
+
+.box3 h4,
+.box3 div{
+  padding: 5px 10px;
+}
