@@ -22,11 +22,35 @@
  */
 
 
+
+@media (max-width: 414px) {
+  .text{
+      font-size: 35px;
+      line-height: 50px;
+  }
+  .imag{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+  }
+  .searchText{
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+}
+
+.imag{
+  margin-bottom: 17px;
+}
+
+
 .headertext{
   color: #3C3030;
   font-family: "Iowan Old Style";
   font-size: 84px;
 }
+
 
 .header{
   color: #3C3030;
@@ -44,7 +68,6 @@
   font-size: 20px;
   text-transform: uppercase;
 }
-
 
 .center_text_he1{
   display: flex;
@@ -75,87 +98,11 @@
   margin-bottom: 60px;
 }
 
-.box1{
+.box_1{
   height:450px;
-  display: flex;
-  flex-direction: column;
-
 }
+
 .box1 img{
   min-height: 200px;
   background-color: red;
-}
-
-.box1 h4{
-  color: #3C3030;
-  font-family: "Inknut Antiqua";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
-}
-
-.box2 h4{
-  color: #3C3030;
-  font-family: "Inknut Antiqua";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
-}
-
-.box3 h4{
-  color: #3C3030;
-  font-family: "Inknut Antiqua";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
-}
-
-
-.box4 h4{
-  color: #3C3030;
-  font-family: "Inknut Antiqua";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
-}
-.box2{
-  height:388px;
-  display: flex;
-  flex-direction: column;
-
-}
-.box2 img{
-  min-height: 200px;
-  background-color: red;
-}
-.box4 img{
-  min-height: 200px;
-  background-color: red;
-}
-
-.box2 h4,
-.box2 div{
-  padding: 5px 10px;
-}
-
-
-.box3{
-  height:388px;
-  display: flex;
-  flex-direction: column;
-
-}
-.box3 img{
-  min-height: 200px;
-  background-color: red;
-}
-
-
-.box3 h4,
-.box3 div{
-  padding: 5px 10px;
 }

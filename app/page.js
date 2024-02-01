@@ -7,6 +7,7 @@ import NewsDe from './news_de';
 import "bootstrap/dist/css/bootstrap.css";
 import React from 'react';
 import Footer from './footer';
+import List from './list';
 
 
 const page = () => {
@@ -16,8 +17,11 @@ const page = () => {
       <Search/>
       <NewsDe/>
       <Footer/>
+      {/* <List/> */}
     </>
   );
 };
 
 export default page;
+
+
